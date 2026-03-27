@@ -351,7 +351,7 @@ def process_dataset(npy_path: str, min_samples: int = 5):
     }
     return section
 
-# Ryn for both dataset (or more just add) that was required. 
+# Run for both dataset (or more just add) that was required. 
 report_sections = []
 for npy in ["dataset1.npy", "dataset2.npy"]:
     sec = process_dataset(npy_path=npy, min_samples=5)

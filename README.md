@@ -8,6 +8,14 @@ No report was needed
 
 -> Documtenation on GitHub
 
+Orchestration
+
+```text
+process_dataset(npy_path: str, min_samples: int = 5)
+
+for both datasets. 
+```
+
 ## Task1 ( Grade 3 )
 
 • Find the best value for the ground level\
@@ -92,6 +100,14 @@ For both the datasets
 * Find the largest cluster, since that should be hte catenary cluster, beware of the noise cluster
 
 * Use hte x,y span for hte culster to find the largest cluster
+
+Functions
+
+```text
+get_largest_cluster_by_xy_span(points_xy: np.ndarray, labels: np.ndarray)
+
+save_largest_cluster_plot(points_xy, target_mask, title, out_png)
+```
 
 For both databases
 
